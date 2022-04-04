@@ -45,7 +45,6 @@ function Home() {
         {
             title: 'Price',
             dataIndex: 'price',
-            render: (price,quantity) => ((price*quantity)/10).toString()
         },
         {
             title: 'Quantity',
