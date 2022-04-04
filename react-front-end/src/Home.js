@@ -14,10 +14,6 @@ function Home() {
     const [btn, setBtn] = useState(null);
 
 
-
-
-
-
     const getReport = () => {
         const endDatee = `?endDate=${endDate}&startDate=${startDate}`;
         console.log(endDatee)
@@ -57,13 +53,12 @@ function Home() {
     ]
     function onChangeStart(date, dateString) {
         setStartDate(dateString);
-       // console.log(startDate);
+        // console.log(startDate);
     }
     function onChangeEnd(date, dateString) {
         setEndDate(dateString);
         //console.log(endDate);
     }
-
 
     return (
         <div>

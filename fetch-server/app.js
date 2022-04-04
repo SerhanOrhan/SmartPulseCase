@@ -5,7 +5,7 @@ const app = express()
 const port = 8090
 
 app.use(cors({
-    origin: '*'
+  origin: '*'
 }));
 
 app.get('/', (req, res) => {

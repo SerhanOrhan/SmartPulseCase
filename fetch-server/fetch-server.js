@@ -6,7 +6,7 @@ const reportController = {
             .then(response => {
                 const manipulatedData = response.data.body.intraDayTradeHistoryList;
                 let maps = manipulatedData && manipulatedData.filter((item) => {
-                   return (item.conract.substring(0, 2) == "PH");
+                    return (item.conract.substring(0, 2) == "PH");
                 })
                 console.log(maps);
                 return res.send(maps);

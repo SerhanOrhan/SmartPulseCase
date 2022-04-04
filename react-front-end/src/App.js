@@ -3,10 +3,10 @@ import 'antd/dist/antd.css';
 import './App.css';
 
 function App() {
-  
+
   return (
     <div>
-      <Home/>
+      <Home />
     </div>
   );
 }
